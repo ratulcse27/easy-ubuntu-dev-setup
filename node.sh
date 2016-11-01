@@ -21,6 +21,6 @@ echo -e "For further info on NVM features https://goo.gl/Xuxmbx \n"
 echo "Step:2 [Install Yarn]"
 sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
 echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get install yarn
+sudo apt-get update && sudo apt-get install yarn
 echo -e "Yarn Installation Completed Successfully\n"
 echo -e "For further info on Yarn https://goo.gl/VprTir \n"
