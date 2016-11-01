@@ -29,4 +29,7 @@ npm install -g browserify
 echo -e "Browserify Installation Completed Successfully\n"
 echo -e "For further info on Browserify https://goo.gl/zSoqly \n"
 
-
+echo "[Install Grunt CLI]"
+npm install -g grunt-cli
+echo -e "Grunt CLI Installation Completed Successfully\n"
+echo -e "For further info on Grunt https://goo.gl/3VT0Cg \n"
