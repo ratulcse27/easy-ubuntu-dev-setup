@@ -9,8 +9,8 @@ magenta() { echo "$(tput setaf 5)$*$(tput setaf 9)"; }
 cyan() { echo "$(tput setaf 6)$*$(tput setaf 9)"; }
 white() { echo "$(tput setaf 7)$*$(tput setaf 9)"; }
 
-echo -e red "Are you sure, you want to do enter into this JS S***"
-echo -e blue "Maintained By SUST CSE Developer Network (SCDN)\n"
+red "Are you sure, you want to do enter into this JS S***"
+blue "Maintained By SUST CSE Developer Network (SCDN)\n"
 
 
 
