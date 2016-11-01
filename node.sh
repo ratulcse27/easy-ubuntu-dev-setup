@@ -11,6 +11,7 @@ white() { echo "$(tput setaf 7)$*$(tput setaf 9)"; }
 
 red "Are you sure, you want to do enter into this JS S***"
 blue "Maintained By SUST CSE Developer Network (SCDN)\n"
+red "Error: Something went horribly wrong..."
 
 
 
