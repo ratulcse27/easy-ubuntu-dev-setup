@@ -1,26 +1,16 @@
 #!/bin/bash
 
-echo -e "\e[5mAre you sure, you want to do enter into this JS S***"
-echo -e "Maintained By SUST CSE Developer Network (SCDN)\n"
+black() { echo "$(tput setaf 0)$*$(tput setaf 9)"; }
+red() { echo "$(tput setaf 1)$*$(tput setaf 9)"; }
+green() { echo "$(tput setaf 2)$*$(tput setaf 9)"; }
+yellow() { echo "$(tput setaf 3)$*$(tput setaf 9)"; }
+blue() { echo "$(tput setaf 4)$*$(tput setaf 9)"; }
+magenta() { echo "$(tput setaf 5)$*$(tput setaf 9)"; }
+cyan() { echo "$(tput setaf 6)$*$(tput setaf 9)"; }
+white() { echo "$(tput setaf 7)$*$(tput setaf 9)"; }
+
+echo -e red "Are you sure, you want to do enter into this JS S***"
+echo -e blue "Maintained By SUST CSE Developer Network (SCDN)\n"
 
 
-echo -e "Steap:1 [System Update]"
-echo -e "Update Starts....."
-sudo apt-get update
-echo -e "\e[97System Update Completed Successfully\n"
 
-
-echo -e "Step:2 [Install NVM]"
-sudo apt-get install build-essential
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-nvm install node
-echo -e "\e[92mNVM with latest node version Installation Completed Successfully\n"
-echo -e "\e[37mFor further info on NVM features \e[96mhttps://goo.gl/Xuxmbx\n"
-
-
-echo "Step:2 [Install Yarn]"
-sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
-echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get update && sudo apt-get install yarn
-echo -e "\e[92mYarn Installation Completed Successfully\n"
-echo -e "\e[37mFor further info on Yarn \e[96mhttps://goo.gl/VprTir \n"
