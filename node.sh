@@ -1,21 +1,21 @@
 #!/bin/bash
 
-echo "\e[5m\e[37mAre you sure, you want to do enter into this JS S***"
+echo -e "\e[5mAre you sure, you want to do enter into this JS S***"
 echo -e "Maintained By SUST CSE Developer Network (SCDN)\n"
 
 
-echo "Steap:1 [System Update]"
-echo "Update Starts....."
+echo -e "Steap:1 [System Update]"
+echo -e "Update Starts....."
 sudo apt-get update
 echo -e "\e[97System Update Completed Successfully\n"
 
 
-echo "Step:2 [Install NVM]"
+echo -e "Step:2 [Install NVM]"
 sudo apt-get install build-essential
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 nvm install node
 echo -e "\e[92mNVM with latest node version Installation Completed Successfully\n"
-echo -e "\e[37mFor further info on NVM features \e[96mhttps://goo.gl/Xuxmbx \n"
+echo -e "\e[37mFor further info on NVM features \e[96mhttps://goo.gl/Xuxmbx\n"
 
 
 echo "Step:2 [Install Yarn]"
