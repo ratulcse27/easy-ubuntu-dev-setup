@@ -33,3 +33,10 @@ echo "[Install Grunt CLI]"
 npm install -g grunt-cli
 echo -e "Grunt CLI Installation Completed Successfully\n"
 echo -e "For further info on Grunt https://goo.gl/3VT0Cg \n"
+
+echo "[Install Gulp CLI]"
+echo -e "Removing previous gulp to make sure your old version doesn't collide with gulp-cli.\n"
+npm rm --global gulp
+npm install --global gulp-cli
+echo -e "Gulp CLI Installation Completed Successfully\n"
+echo -e "For further info on Gulp https://goo.gl/9zUtF1 \n"
